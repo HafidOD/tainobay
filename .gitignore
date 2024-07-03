@@ -3,3 +3,4 @@ logs
 .npm
 .cache
 *.log
+.env

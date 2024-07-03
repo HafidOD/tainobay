@@ -447,7 +447,7 @@ img,svg{vertical-align:middle}
 .tertiary-75-hover{--hover-color:var(--tertiary-75-color)!important}
 .accent{--color:var(--accent-color)!important}
 .accent-hover{--hover-color:var(--accent-color)!important}
-.white{--color:var(--white-color)!important}
+.white{--color:var(--white-color)!important; fill: var(--white-color);}
 .white-hover{--hover-color:var(--white-color)!important}
 .white-10{--color:var(--white-10-color)!important}
 .white-10-hover{--hover-color:var(--white-10-color)!important}
@@ -732,7 +732,7 @@ to{transform:translatey(-10px)}
 .line-clamp-2{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
 .line-clamp-3{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
 .link{position:relative;z-index:5;text-decoration:none;color:var(--color);pointer-events:all;-webkit-transition:all .3s ease;-o-transition:all .3s ease;-moz-transition:all .3s ease;transition:all .3s ease}
-.link:hover,.link:hover > *{color:var(--hover-color)}
+.link:hover,.link:hover > *{color:var(--hover-color);fill: var(--hover-color);}
 .link .icon{margin-right:7.5px;vertical-align:middle;font-size:.75rem}
 .holder{position:relative;width:100%}
 .margin-holder{margin-left:2rem}

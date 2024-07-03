@@ -19,28 +19,11 @@
                                     Puerto Plata 57000
                                     República Dominicana.</p>
                             </div>
-
-                            <div class="footer-text">
-                             <p><?php echo FOOTER_DESCRIP[0]; ?></p>
-
-                             <div class="footer-item">
-                            		<!-- Button -->
-                            		<div class="hover-up-down">
-                               <a href="mailto:reclutamiento@sob-dr.com" class="button outline rounded gray primary-hover">
-                                <i class="fa-solid fas fa-envelope icon button-icon left-icon gray white-hover"></i>
-                                <span class="button-text gray white-hover">reclutamiento@sob-dr.com</span>
-                               </a>
-                            		</div>
-                        					</div>
-
-                            </div>
-
                         </div>
                         <div class="footer-item">
                             <!-- Button -->
                             <div class="hover-up-down">
-                                <a href="mailto:info@porttainobay.com"
-                                    class="button outline rounded gray primary-hover">
+                                <a href="mailto:info@porttainobay.com" class="button outline rounded gray primary-hover">
                                     <i class="fa-solid fas fa-envelope icon button-icon left-icon gray white-hover"></i>
                                     <span class="button-text gray white-hover">info@porttainobay.com</span>
                                 </a>
@@ -83,8 +66,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="<?php echo $path; ?><?php echo $idioma; ?>/points-of-interest"
-                                        class="nav-link">
+                                    <a href="<?php echo $path; ?><?php echo $idioma; ?>/points-of-interest" class="nav-link">
                                         <span class="text"><?php echo  FOOTER_ACTIVITIES[2]; ?></span>
 
                                     </a>

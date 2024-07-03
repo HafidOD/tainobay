@@ -21,8 +21,7 @@ include_once("include/lang/{$idioma}-map.php");
                     <h1 class="title black">
                         <span class="text-1 text-style-3"><?php echo TITULOS_MAP[0]; ?>
                         </span>
-                        <span class="text-2 text-style-4 text-italic"><?php echo TITULOS_MAP[1]; ?> <mark
-                                class="animated-underline primary">
+                        <span class="text-2 text-style-4 text-italic"><?php echo TITULOS_MAP[1]; ?> <mark class="animated-underline primary">
                                 <?php echo TITULOS_MAP[2]; ?> </mark></span>
                     </h1>
                     <hr class="gray-25">
@@ -36,7 +35,7 @@ include_once("include/lang/{$idioma}-map.php");
                 <!-- Image -->
                 <div class="stretched-section">
                     <figure class="figure">
-                        <img src="assets/images/media/mapa.jpg" class="image shadow rounded" alt="<?php echo SITIO; ?>">
+                        <img src="assets/images/media/Mapa-Taino-Bay.jpg" class="image shadow rounded" alt="<?php echo SITIO; ?>">
                     </figure>
                 </div>
     </main>

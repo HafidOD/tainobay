@@ -57,6 +57,7 @@ Support : codings.dev
 .popup-bar .description{line-height:1}
 .popup-bar .button:not(.close-button){position:absolute;left:0;width:100%;height:50px;margin:0}
 .popup-bar .button:not(.close-button) .button-text,.popup-bar .button:not(.close-button) .button-icon{display:none}
+.mobile-w-100 {width: 100%;}
 }
 .bg-arrivals{background-color:var(--blue-color)}
 .fc-toolbar-title{color:#fff;text-transform:uppercase}
