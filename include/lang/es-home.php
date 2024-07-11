@@ -1,5 +1,10 @@
 <?php
 
+define('HOME_TEXT_BANNER', array(
+    'Un puerto de cruceros único',
+    'La experiencia portuaria definitiva en Puerto Plata, República Dominicana.',
+));
+
 define('HOME_TEXTOS', array(
     'VER MÁS',
     '¿Qué hacer en Puerto Plata?'

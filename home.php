@@ -12,19 +12,21 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
 
     <?php include("include/head.php"); ?>
     <style>
-     @media only screen (max-width: 768px) {
-      video.vh-100,
-      .vh-100 {
-       height: 100% !important;
-      }
-     }
+        @media only screen (max-width: 768px) {
 
-     @media (max-width: 768px) {
-      video.vh-100,
-      .vh-100 {
-       height: 100% !important;
-      }
-     }
+            video.vh-100,
+            .vh-100 {
+                height: 100% !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            video.vh-100,
+            .vh-100 {
+                height: 100% !important;
+            }
+        }
     </style>
 </head>
 
@@ -39,13 +41,14 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
         <!-- Banner -->
         <section id="home" class="shock-section has-overlay">
             <div class="banner">
-                <div class="content-wrapper text-center">
+                <div class="content-wrapper text-center top-50 start-50 translate-middle">
                     <div class="container">
                         <!-- Intro -->
                         <div class="extended-intro max-w-85 mb-35">
                             <div class="wrapper">
                                 <div class="left-column">
-
+                                    <h1 class="text-white text-4em mb-0"><?= HOME_TEXT_BANNER[0] ?></h1>
+                                    <h2 class="text-white mb-0"><?= HOME_TEXT_BANNER[1] ?></h2>
                                 </div>
 
                             </div>
@@ -53,12 +56,19 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                     </div>
                 </div>
                 <!-- Video -->
-                <div class="image-wrapper">
-                    <video class="video vh-100 fit-cover" playsinline="playsinline" autoplay="autoplay" muted="muted"
-                        loop="loop">
+                <div class="image-wrapper over-gradient">
+                    <video class="video vh-100 fit-cover" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                         <source src="assets/videos/video-puerto-taino.mp4" type="video/mp4">
                     </video>
                 </div>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2><?= HOME_TEXT_WELCOME[0] ?> <span><?= HOME_TEXT_WELCOME[1] ?></span> <?= HOME_TEXT_WELCOME[2] ?></h2>
+                <p><?= HOME_TEXT_WELCOME[3] ?></p>
+                <p><?= HOME_TEXT_WELCOME[4] ?></p>
             </div>
         </section>
 
@@ -70,8 +80,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
             <div class="scrolling-text  has-image">
                 <!-- Image -->
                 <div class="image-wrapper max-w-25 mb-5">
-                    <img src="assets/images/media/Taino-Bay.jpg" alt="<?php echo FRASE[0];  ?>"
-                        class="image floating-item" />
+                    <img src="assets/images/media/Taino-Bay.jpg" alt="<?php echo FRASE[0];  ?>" class="image floating-item" />
                 </div>
                 <!-- Text -->
                 <div class="text-wrapper mix-blend-lighter">
@@ -95,8 +104,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                             <div class="basic-intro mb-35">
                                 <h2 class="title black">
                                     <span class="text-1 text-style-7"><?php echo  WELCOME_TEXT[0]; ?> </span>
-                                    <span class="text-2 text-style-8 text-italic"><mark
-                                            class="animated-underline primary"> <?php echo  WELCOME_TEXT[1]; ?>
+                                    <span class="text-2 text-style-8 text-italic"><mark class="animated-underline primary"> <?php echo  WELCOME_TEXT[1]; ?>
                                         </mark>.</span>
                                 </h2>
                                 <div class="description gray">
@@ -108,42 +116,33 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                     </div>
                     <div class="col-12 col-lg-5" data-aos="zoom-in-up" data-aos-delay="600">
 
-                        <div class="gallery swiper slider has-navigation has-scrollbar scheme-1 primary"
-                            data-columns="1,1,1,1" data-autoplay="10000" data-loop="true">
+                        <div class="gallery swiper slider has-navigation has-scrollbar scheme-1 primary" data-columns="1,1,1,1" data-autoplay="10000" data-loop="true">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="assets/images/welcome/Welcome-1.jpg"
-                                        class="item lightbox-link hover-zoom-rotate">
+                                    <a href="assets/images/welcome/Welcome-1.jpg" class="item lightbox-link hover-zoom-rotate">
                                         <div class="image-wrapper">
-                                            <img src="assets/images/welcome/Welcome-1.jpg" class="image"
-                                                alt="<?php echo SITIO; ?>" />
+                                            <img src="assets/images/welcome/Welcome-1.jpg" class="image" alt="<?php echo SITIO; ?>" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="assets/images/welcome/Welcome-2.jpg"
-                                        class="item lightbox-link hover-zoom-rotate">
+                                    <a href="assets/images/welcome/Welcome-2.jpg" class="item lightbox-link hover-zoom-rotate">
                                         <div class="image-wrapper">
-                                            <img src="assets/images/welcome/Welcome-2.jpg" class="image"
-                                                alt="<?php echo SITIO; ?>" />
+                                            <img src="assets/images/welcome/Welcome-2.jpg" class="image" alt="<?php echo SITIO; ?>" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="assets/images/welcome/Welcome-3.jpg"
-                                        class="item lightbox-link hover-zoom-rotate">
+                                    <a href="assets/images/welcome/Welcome-3.jpg" class="item lightbox-link hover-zoom-rotate">
                                         <div class="image-wrapper">
-                                            <img src="assets/images/welcome/Welcome-3.jpg" class="image"
-                                                alt="<?php echo SITIO; ?>" />
+                                            <img src="assets/images/welcome/Welcome-3.jpg" class="image" alt="<?php echo SITIO; ?>" />
                                         </div>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="assets/images/welcome/Welcome-4.jpg"
-                                        class="item lightbox-link hover-zoom-rotate">
+                                    <a href="assets/images/welcome/Welcome-4.jpg" class="item lightbox-link hover-zoom-rotate">
                                         <div class="image-wrapper">
-                                            <img src="assets/images/welcome/Welcome-4.jpg" class="image"
-                                                alt="<?php echo SITIO; ?>" />
+                                            <img src="assets/images/welcome/Welcome-4.jpg" class="image" alt="<?php echo SITIO; ?>" />
                                         </div>
                                     </a>
                                 </div>
@@ -182,8 +181,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                             <!-- Collapse -->
                             <div class="collapsible">
                                 <div class="collapse-group">
-                                    <a href="#collapse-1" class="collapse-toggle parent" aria-expanded="false"
-                                        aria-controls="collapse-1" data-bs-toggle="collapse">
+                                    <a href="#collapse-1" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
                                         <div class="collapse-button rounded-circle black">
                                             <span class="arrow-button cross scheme-2 primary">
                                                 <span class="arrow">
@@ -202,8 +200,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                                     </div>
                                 </div>
                                 <div class="collapse-group">
-                                    <a href="#collapse-2" class="collapse-toggle parent" aria-expanded="false"
-                                        aria-controls="collapse-2" data-bs-toggle="collapse">
+                                    <a href="#collapse-2" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-2" data-bs-toggle="collapse">
                                         <div class="collapse-button rounded-circle black">
                                             <span class="arrow-button cross scheme-2 primary">
                                                 <span class="arrow">
@@ -222,8 +219,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                                     </div>
                                 </div>
                                 <div class="collapse-group">
-                                    <a href="#collapse-3" class="collapse-toggle parent" aria-expanded="false"
-                                        aria-controls="collapse-3" data-bs-toggle="collapse">
+                                    <a href="#collapse-3" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-3" data-bs-toggle="collapse">
                                         <div class="collapse-button rounded-circle black">
                                             <span class="arrow-button cross scheme-2 primary">
                                                 <span class="arrow">

@@ -1,5 +1,18 @@
 <?php
 
+define('HOME_TEXT_BANNER', array(
+    'A cruise port like no other',
+    'The ultimate port experience in Puerto Plata, República Dominicana.',
+));
+
+define('HOME_TEXT_WELCOME', array(
+    'Welcome',
+    'to',
+    'Taino Bay!',
+    'Located in the Bride of the Atlantic, Puerto Plata, Taino Bay brings the fun to your vacation!',
+    'With unique attractions, Lazy river, pools, lounge areas and more, Taino Bay will become your next favorite stop to create new memories on your next cruise.',
+));
+
 define('HOME_TEXTOS', array(
     'VIEW MORE',
     'Things to do in Puerto Plata?',
