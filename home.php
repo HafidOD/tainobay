@@ -83,14 +83,49 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
         </section>
 
         <!-- New Carousel -->
-        <section class="d-grid ">
-            <div class="row">
-                <div class="col">
-                    info
+        <section id="port-experience" class="shock-section">
+
+            <div class="carousel-content d-flex flex-column justify-content-evenly align-items-center">
+                <h2 class="text-uppercase text-center text-style-5"><strong>Port experience</strong></h2>
+                <div class="d-flex align-items-center gap-2">
+                    <!-- Arrow Left -->
+                    <a href="#" class="slide-navigation-item-prev d-block text-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd" d="M17.488 4.43a.75.75 0 0 1 .081 1.058L11.988 12l5.581 6.512a.75.75 0 1 1-1.139.976l-6-7a.75.75 0 0 1 0-.976l6-7a.75.75 0 0 1 1.058-.081m-4 0a.75.75 0 0 1 .081 1.058L7.988 12l5.581 6.512a.75.75 0 1 1-1.138.976l-6-7a.75.75 0 0 1 0-.976l6-7a.75.75 0 0 1 1.057-.081" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                    <!-- Text Carousel -->
+                    <div>
+                        <p class="text-style-14">Discover things to do</p>
+                    </div>
+                    <!-- Arrow Right -->
+                    <a href="#" class="slide-navigation-item-next d-block text-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd" d="M6.512 4.43a.75.75 0 0 1 1.057.082l6 7a.75.75 0 0 1 0 .976l-6 7a.75.75 0 0 1-1.138-.976L12.012 12L6.431 5.488a.75.75 0 0 1 .08-1.057m4 0a.75.75 0 0 1 1.058.082l6 7a.75.75 0 0 1 0 .976l-6 7a.75.75 0 0 1-1.14-.976L16.013 12l-5.581-6.512a.75.75 0 0 1 .081-1.057" clip-rule="evenodd" />
+                        </svg>
+                    </a>
                 </div>
-                <div class="col">
-                    carousel
+                <a href="#" class="text-uppercase button-transparent text-center"><strong>Explore more</strong></a>
+            </div>
+            <div class="carousel-image-wrapper">
+                <!-- share -->
+                <div class="position-absolute top-0 end-0 p-1 button-share">
+                    <button class="border-0 text-white bg-transparent">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 1024 1024">
+                            <path fill="currentColor" d="m679.872 348.8l-301.76 188.608a127.8 127.8 0 0 1 5.12 52.16l279.936 104.96a128 128 0 1 1-22.464 59.904l-279.872-104.96a128 128 0 1 1-16.64-166.272l301.696-188.608a128 128 0 1 1 33.92 54.272z" />
+                        </svg>
+                    </button>
                 </div>
+                <!-- carousel info -->
+                <div class="content-wrapper-carousel">
+                    <h2 class="mb-0 text-style-2">01</h2>
+                    <h3 class="mb-0 text-style-15">Blue Parrot</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quod ab consequatur praesentium, unde quas nostrum tenetur natus adipisci, hic fuga laudantium magni maxime molestiae amet ex a possimus assumenda.</p>
+                </div>
+                <picture>
+                    <source src="assets/images/points-of-interest/ParqueCentral.jpg">
+                    <img src="assets/images/points-of-interest/ParqueCentral.jpg" alt="">
+                </picture>
             </div>
 
         </section>

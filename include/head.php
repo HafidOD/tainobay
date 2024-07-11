@@ -4,8 +4,7 @@
 
     <!-- Identity -->
     <title>Taino Bay, Puerto Plata</title>
-    <meta name="description"
-        content="Taino Bay es una terminal turística de primer mundo, cuenta con tres posiciones de atraque y una plaza comercial con locales destinados al retail, también cuenta con restaurantes y bares que brindan una experiencia inolvidable." />
+    <meta name="description" content="Taino Bay es una terminal turística de primer mundo, cuenta con tres posiciones de atraque y una plaza comercial con locales destinados al retail, también cuenta con restaurantes y bares que brindan una experiencia inolvidable." />
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <base href="<?php echo $path; ?>">
     <!-- Vendor Style Sheet -->
@@ -13,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/menu-engine.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/menu-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/dynamic-carousel.css" />
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/swiper.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/dynamic-slider.min.css" />
