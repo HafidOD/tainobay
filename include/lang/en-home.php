@@ -9,7 +9,7 @@ define('HOME_TEXT_WELCOME', array(
     'Welcome',
     'to',
     'Taino Bay!',
-    'Located in the Bride of the Atlantic, Puerto Plata, Taino Bay brings the fun to your vacation!',
+    'Located in the <strong>Bride of the Atlantic</strong>, Puerto Plata, Taino Bay brings the fun to your vacation!',
     'With unique attractions, Lazy river, pools, lounge areas and more, Taino Bay will become your next favorite stop to create new memories on your next cruise.',
 ));
 

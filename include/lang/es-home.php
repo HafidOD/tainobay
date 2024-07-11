@@ -5,6 +5,14 @@ define('HOME_TEXT_BANNER', array(
     'La experiencia portuaria definitiva en Puerto Plata, República Dominicana.',
 ));
 
+define('HOME_TEXT_WELCOME', array(
+    '¡Bienvenido',
+    'a',
+    'Taino Bay!',
+    'Localizado en <strong>La Novia del Atlántico</strong>, Puerto Plata, Taino Bay ¡trae la diversión a tus vacaciones!',
+    'Con atracciones únicas, Lazy river, piscinas, zonas de descanso y mucho más, Taino Bay se convertirá en su próxima parada favorita para crear nuevos recuerdos en su próximo crucero.',
+));
+
 define('HOME_TEXTOS', array(
     'VER MÁS',
     '¿Qué hacer en Puerto Plata?'

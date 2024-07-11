@@ -44,11 +44,11 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                 <div class="content-wrapper text-center top-50 start-50 translate-middle">
                     <div class="container">
                         <!-- Intro -->
-                        <div class="extended-intro max-w-85 mb-35">
+                        <div class="extended-intro max-w-85">
                             <div class="wrapper">
                                 <div class="left-column">
-                                    <h1 class="text-white text-4em mb-0"><?= HOME_TEXT_BANNER[0] ?></h1>
-                                    <h2 class="text-white mb-0"><?= HOME_TEXT_BANNER[1] ?></h2>
+                                    <h1 class="text-white banner-title mb-0"><?= HOME_TEXT_BANNER[0] ?></h1>
+                                    <h2 class="text-white mb-0 banner-subtitle"><?= HOME_TEXT_BANNER[1] ?></h2>
                                 </div>
 
                             </div>
@@ -64,12 +64,35 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2><?= HOME_TEXT_WELCOME[0] ?> <span><?= HOME_TEXT_WELCOME[1] ?></span> <?= HOME_TEXT_WELCOME[2] ?></h2>
-                <p><?= HOME_TEXT_WELCOME[3] ?></p>
-                <p><?= HOME_TEXT_WELCOME[4] ?></p>
+        <!-- Welcome Text -->
+        <section class="shock-section pt-2 pb-4">
+            <div class="container text-center my-5">
+                <div class="container-title mx-auto mb-2">
+                    <h2 class="text-style-2 lh-1 text-uppercase text-blue"><span class="d-block text-start"><?= HOME_TEXT_WELCOME[0] ?></span>
+                        <span class="d-flex justify-content-end gap-3">
+                            <span class="text-style-3 lh-1 text-orange"><?= HOME_TEXT_WELCOME[1] ?></span> <?= HOME_TEXT_WELCOME[2] ?>
+                        </span>
+                    </h2>
+                </div>
+                <div class="container-text mx-auto px-5">
+
+                    <p class="text-black black text-style-13"><?= HOME_TEXT_WELCOME[3] ?></p>
+                    <p class="text-black black text-style-13"><?= HOME_TEXT_WELCOME[4] ?></p>
+                </div>
             </div>
+        </section>
+
+        <!-- New Carousel -->
+        <section class="d-grid ">
+            <div class="row">
+                <div class="col">
+                    info
+                </div>
+                <div class="col">
+                    carousel
+                </div>
+            </div>
+
         </section>
 
         <!-- Dynamic slider -->
