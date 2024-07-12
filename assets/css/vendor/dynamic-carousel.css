@@ -12,19 +12,22 @@
 
   100% {transform: translate(0px, 0px);}
 }
-#port-experience {
+#port-experience, .dynamic-carousel {
   color: white;
   display: grid;
 
 }
-#port-experience .carousel-content {
+.bg-orange {
   background-color: var(--primary-color);
 }
-#port-experience .carousel-image-wrapper {
+.bg-blue {
+  background-color: var(--blue-color);
+}
+#port-experience .carousel-image-wrapper, .dynamic-carousel .carousel-image-wrapper {
 max-width: 100%;
 position: relative;
 }
-#port-experience .carousel-image-wrapper img {
+#port-experience .carousel-image-wrapper img, .dynamic-carousel .carousel-image-wrapper img {
   object-fit: contain;
   max-width: 100%;
 }
@@ -56,6 +59,20 @@ position: relative;
   animation: arrowRight 1.5s ease-in-out infinite;
 }
 
+.button-transparent {
+  background: transparent;
+  border-radius: 25px;
+  padding: 8px 10%;
+}
+.button-blue {
+  color: var(--blue-color);
+  border: solid 2px var(--blue-color);
+}
+.button-orange {
+  color: var(--primary-color);
+  border: solid 2px var(--primary-color);
+}
+
 /* sm */
 @media (min-width: 640px) {
 
@@ -63,7 +80,7 @@ position: relative;
 
 /* md 768px  */
 @media (min-width: 768px) {
-#port-experience {
+#port-experience, .dynamic-carousel {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

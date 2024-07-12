@@ -828,11 +828,3 @@ table{caption-side:bottom;border-collapse:collapse;border-color:var(--color)}
       width: 1100px;
   }
 }
-
-.button-transparent {
-  color: var(--blue-color);
-  background: transparent;
-  border: solid 2px var(--blue-color);
-  border-radius: 25px;
-  padding: 8px 10%;
-}

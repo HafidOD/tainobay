@@ -13,6 +13,13 @@ define('HOME_TEXT_WELCOME', array(
     'With unique attractions, Lazy river, pools, lounge areas and more, Taino Bay will become your next favorite stop to create new memories on your next cruise.',
 ));
 
+define("SCROLLING_TEXT", array(
+    'Taino Bay is a must.',
+    'Must party, must do, must enjoy. ',
+    'Taino Bay is a must. Must party, must do, must enjoy. Taino Bay is a must. Must party,
+    must do, must enjoy. Taino Bay is a must.'
+));
+
 define('HOME_TEXTOS', array(
     'VIEW MORE',
     'Things to do in Puerto Plata?',
