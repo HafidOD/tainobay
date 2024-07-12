@@ -2,6 +2,17 @@
   width: 100%;
 }
 
+.content-icon {
+  width: 50px;
+}
+
+.border-blue {
+  border-color: var(--blue-color) !important;
+}
+.button-plus {
+  margin-top: 5px;
+}
+
 /* sm */
 @media (min-width: 640px) {}
 

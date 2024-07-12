@@ -242,19 +242,19 @@ button{-webkit-appearance:none;-moz-appearance:none;-webkit-user-select:none;-mo
 .button.button-collision:hover:before{-webkit-animation:cross-left-animation .8s both;animation:cross-left-animation .8s both;-webkit-animation-direction:alternate;animation-direction:alternate}
 .button.button-collision:hover:after{-webkit-animation:cross-right-animation .8s both;animation:cross-right-animation .8s both;-webkit-animation-direction:alternate;animation-direction:alternate}
 :root .arrow-button.scheme-1{--color-1:var(--black-color)}
-:root .arrow-button.scheme-2{--color-1:var(--white-color)}
+:root .arrow-button.scheme-2{--color-1:var(--primary-color)}
 .arrow-button{transform:rotate(180deg);padding:20px 0;display:inline-flex;align-items:center;text-decoration:none;background:none}
 .arrow-button .text{position:absolute;left:0;bottom:25px;transform:rotate(180deg);background:linear-gradient(to right,var(--color),var(--color) 50%,var(--color-1) 50%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:200% 100%;background-position:100%;font-family:var(--secondary-font);font-size:.85rem;font-weight:500;line-height:1.2;color:var(--color-1);transition:background-position .4s ease}
 .arrow-button:hover .text,.parent:hover .arrow-button .text{background-position:0 100%}
 .arrow-button .arrow{width:0;display:grid}
-.arrow-button .arrow .item{overflow:hidden;position:relative;right:21.1px;bottom:-1px;z-index:2;width:20px;height:2px;background:var(--color-1)}
+.arrow-button .arrow .item{overflow:hidden;position:relative;right:21.1px;bottom:-1px;z-index:2;width:20px;height:2px;}
 .arrow-button .arrow .item:nth-child(1){transform-origin:left bottom;transform:rotate(45deg) translate3d(15px,-15px,0)}
 .arrow-button .arrow .item:nth-child(2){margin-left:10px;transform-origin:left bottom;transform:rotate(-45deg) translate3d(-4px,-6px,0);visibility:hidden}
 .arrow-button .arrow .item:after{content:'';position:absolute;left:0;height:2px;display:block;background:var(--color)}
 .arrow-button:hover .arrow .item:after,.parent:hover .arrow-button .arrow .item:after{animation:width-animation .2s forwards;animation-delay:.2s}
 .arrow-button .line{overflow:hidden;position:relative;z-index:1;width:100px;height:2px;background:var(--color-1)}
 .arrow-button:hover .line:after,.parent:hover .arrow-button .line:after{animation:left-animation .4s forwards}
-.arrow-button .line:after{content:'';position:absolute;left:100%;width:100px;height:2px;display:block;background:var(--color)}
+.arrow-button .line:after{content:'';position:absolute;left:100%;width:100px;height:2px;display:block;}
 .arrow-button.prev{transform:rotate(0)}
 .arrow-button.prev .text{transform:rotate(0);background:linear-gradient(to right,var(--color-1),var(--color-1) 50%,var(--color) 50%);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:200% 100%;background-position:0;color:var(--color)}
 .arrow-button.prev:hover .text,.parent.prev:hover .arrow-button .text{background-position:100% 0}
@@ -593,8 +593,8 @@ table{caption-side:bottom;border-collapse:collapse;border-color:var(--color)}
 .collapsible .collapse-group{margin:0 0 1.5rem}
 .collapsible .collapse-group:last-child{margin:0}
 .collapsible .collapse-group .title{margin:0;padding-left:1.5rem;color:var(--color)}
-.collapsible .collapse-group .collapse-content{width:100%;padding-left:70px}
-.collapsible .collapse-group .collapse-content > :first-child{margin-top:1rem}
+.collapsible .collapse-group .collapse-content{width:100%;}
+.collapsible .collapse-group .collapse-content > :nth-child(2n){margin:1rem 0; padding: 0 10px; text-align: center;}
 .collapsible .collapse-group .collapse-content .description{margin:1rem 0}
 .collapsible .collapse-group .collapse-content .description:last-child:not(:first-child){margin:0}
 .collapsible .collapse-group .collapse-content .image{width:100%;display:block}
@@ -827,4 +827,8 @@ table{caption-side:bottom;border-collapse:collapse;border-color:var(--color)}
   .container-text {
       width: 1100px;
   }
+}
+
+.bg-orange {
+  background-color: var(--primary-color);
 }
