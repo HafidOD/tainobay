@@ -90,8 +90,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                 <div class="d-flex align-items-center gap-3 w-75">
                     <!-- Arrow Left -->
                     <a href="#" class="slide-navigation-item-prev d-block text-blue">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
-                            <path fill="currentColor" fill-rule="evenodd" d="M17.488 4.43a.75.75 0 0 1 .081 1.058L11.988 12l5.581 6.512a.75.75 0 1 1-1.139.976l-6-7a.75.75 0 0 1 0-.976l6-7a.75.75 0 0 1 1.058-.081m-4 0a.75.75 0 0 1 .081 1.058L7.988 12l5.581 6.512a.75.75 0 1 1-1.138.976l-6-7a.75.75 0 0 1 0-.976l6-7a.75.75 0 0 1 1.057-.081" clip-rule="evenodd" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="100" height="100" viewBox="0 0 231.26 729.5">
+                            <path class="cls-1" d="M126.93,729.5c.78,0,1.57-.13,2.34-.4,3.73-1.29,5.7-5.36,4.41-9.08L15.05,377.88,133.73,9.33c1.21-3.75-.86-7.78-4.61-8.98-3.76-1.22-7.78.85-8.98,4.61L0,378.05l120.19,346.65c1.02,2.95,3.79,4.8,6.74,4.8Z" />
+                            <path class="cls-1" d="M224.12,729.5c.78,0,1.57-.13,2.34-.4,3.73-1.29,5.7-5.36,4.41-9.08l-118.63-342.14L230.91,9.33c1.21-3.75-.86-7.78-4.61-8.98-3.77-1.22-7.78.85-8.98,4.61l-120.14,373.1,120.19,346.65c1.02,2.95,3.79,4.8,6.74,4.8Z" />
                         </svg>
                     </a>
                     <!-- Text Carousel -->
@@ -100,8 +101,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                     </div>
                     <!-- Arrow Right -->
                     <a href="#" class="slide-navigation-item-next d-block text-blue">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
-                            <path fill="currentColor" fill-rule="evenodd" d="M6.512 4.43a.75.75 0 0 1 1.057.082l6 7a.75.75 0 0 1 0 .976l-6 7a.75.75 0 0 1-1.138-.976L12.012 12L6.431 5.488a.75.75 0 0 1 .08-1.057m4 0a.75.75 0 0 1 1.058.082l6 7a.75.75 0 0 1 0 .976l-6 7a.75.75 0 0 1-1.14-.976L16.013 12l-5.581-6.512a.75.75 0 0 1 .081-1.057" clip-rule="evenodd" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="100" height="100" viewBox="0 0 231.26 729.5">
+                            <path class="cls-1" d="M104.33,729.5c-.78,0-1.57-.13-2.34-.4-3.73-1.29-5.7-5.36-4.41-9.08l118.63-342.14L97.53,9.33c-1.21-3.75.86-7.78,4.61-8.98,3.76-1.22,7.78.85,8.98,4.61l120.14,373.1-120.19,346.65c-1.02,2.95-3.79,4.8-6.74,4.8Z" />
+                            <path class="cls-1" d="M7.14,729.5c-.78,0-1.57-.13-2.34-.4-3.73-1.29-5.7-5.36-4.41-9.08l118.63-342.14L.35,9.33C-.86,5.58,1.2,1.56,4.95.35c3.77-1.22,7.78.85,8.98,4.61l120.14,373.1L13.88,724.7c-1.02,2.95-3.79,4.8-6.74,4.8Z" />
                         </svg>
                     </a>
                 </div>
@@ -149,7 +151,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
         <section id="discover-beyond-cruise" class="shock-section pt-2 pb-4 dynamic-carousel">
             <div class="carousel-image-wrapper">
                 <!-- share -->
-                <div class="position-absolute top-0 end-0 p-1 button-share">
+                <div class="position-absolute top-0 start-0 p-1 button-share">
                     <button class="border-0 text-white bg-transparent">
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 1024 1024">
                             <path fill="currentColor" d="m679.872 348.8l-301.76 188.608a127.8 127.8 0 0 1 5.12 52.16l279.936 104.96a128 128 0 1 1-22.464 59.904l-279.872-104.96a128 128 0 1 1-16.64-166.272l301.696-188.608a128 128 0 1 1 33.92 54.272z" />
@@ -173,8 +175,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                 <div class="d-flex align-items-center gap-3 w-75">
                     <!-- Arrow Left -->
                     <a href="#" class="slide-navigation-item-prev d-block text-orange">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
-                            <path fill="currentColor" fill-rule="evenodd" d="M17.488 4.43a.75.75 0 0 1 .081 1.058L11.988 12l5.581 6.512a.75.75 0 1 1-1.139.976l-6-7a.75.75 0 0 1 0-.976l6-7a.75.75 0 0 1 1.058-.081m-4 0a.75.75 0 0 1 .081 1.058L7.988 12l5.581 6.512a.75.75 0 1 1-1.138.976l-6-7a.75.75 0 0 1 0-.976l6-7a.75.75 0 0 1 1.057-.081" clip-rule="evenodd" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="100" height="100" viewBox="0 0 231.26 729.5">
+                            <path class="cls-1" d="M126.93,729.5c.78,0,1.57-.13,2.34-.4,3.73-1.29,5.7-5.36,4.41-9.08L15.05,377.88,133.73,9.33c1.21-3.75-.86-7.78-4.61-8.98-3.76-1.22-7.78.85-8.98,4.61L0,378.05l120.19,346.65c1.02,2.95,3.79,4.8,6.74,4.8Z" />
+                            <path class="cls-1" d="M224.12,729.5c.78,0,1.57-.13,2.34-.4,3.73-1.29,5.7-5.36,4.41-9.08l-118.63-342.14L230.91,9.33c1.21-3.75-.86-7.78-4.61-8.98-3.77-1.22-7.78.85-8.98,4.61l-120.14,373.1,120.19,346.65c1.02,2.95,3.79,4.8,6.74,4.8Z" />
                         </svg>
                     </a>
                     <!-- Text Carousel -->
@@ -183,8 +186,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                     </div>
                     <!-- Arrow Right -->
                     <a href="#" class="slide-navigation-item-next d-block text-orange">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
-                            <path fill="currentColor" fill-rule="evenodd" d="M6.512 4.43a.75.75 0 0 1 1.057.082l6 7a.75.75 0 0 1 0 .976l-6 7a.75.75 0 0 1-1.138-.976L12.012 12L6.431 5.488a.75.75 0 0 1 .08-1.057m4 0a.75.75 0 0 1 1.058.082l6 7a.75.75 0 0 1 0 .976l-6 7a.75.75 0 0 1-1.14-.976L16.013 12l-5.581-6.512a.75.75 0 0 1 .081-1.057" clip-rule="evenodd" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="100" height="100" viewBox="0 0 231.26 729.5">
+                            <path class="cls-1" d="M104.33,729.5c-.78,0-1.57-.13-2.34-.4-3.73-1.29-5.7-5.36-4.41-9.08l118.63-342.14L97.53,9.33c-1.21-3.75.86-7.78,4.61-8.98,3.76-1.22,7.78.85,8.98,4.61l120.14,373.1-120.19,346.65c-1.02,2.95-3.79,4.8-6.74,4.8Z" />
+                            <path class="cls-1" d="M7.14,729.5c-.78,0-1.57-.13-2.34-.4-3.73-1.29-5.7-5.36-4.41-9.08l118.63-342.14L.35,9.33C-.86,5.58,1.2,1.56,4.95.35c3.77-1.22,7.78.85,8.98,4.61l120.14,373.1L13.88,724.7c-1.02,2.95-3.79,4.8-6.74,4.8Z" />
                         </svg>
                     </a>
                 </div>
@@ -194,27 +198,219 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
 
         </section>
 
-        <!-- Dynamic slider -->
-        <?php include("include/dynamic-slider-home.php"); ?>
-
-        <!-- Scrolling text -->
-        <section class="shock-section">
-            <div class="scrolling-text  has-image">
-                <!-- Image -->
-                <div class="image-wrapper max-w-25 mb-5">
-                    <img src="assets/images/media/Taino-Bay.jpg" alt="<?php echo FRASE[0];  ?>" class="image floating-item" />
+        <!-- Reviews Tripadvisor -->
+        <section class="shock-section pt-2 pb-4 mb-5">
+            <div class="container d-flex align-items-center">
+                <div>
+                    <!-- Arrow Left -->
+                    <a href="#" class="slide-navigation-item-prev d-block text-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="100" height="100" viewBox="0 0 231.26 729.5">
+                            <path class="cls-1" d="M126.93,729.5c.78,0,1.57-.13,2.34-.4,3.73-1.29,5.7-5.36,4.41-9.08L15.05,377.88,133.73,9.33c1.21-3.75-.86-7.78-4.61-8.98-3.76-1.22-7.78.85-8.98,4.61L0,378.05l120.19,346.65c1.02,2.95,3.79,4.8,6.74,4.8Z" />
+                            <path class="cls-1" d="M224.12,729.5c.78,0,1.57-.13,2.34-.4,3.73-1.29,5.7-5.36,4.41-9.08l-118.63-342.14L230.91,9.33c1.21-3.75-.86-7.78-4.61-8.98-3.77-1.22-7.78.85-8.98,4.61l-120.14,373.1,120.19,346.65c1.02,2.95,3.79,4.8,6.74,4.8Z" />
+                        </svg>
+                    </a>
                 </div>
-                <!-- Text -->
-                <div class="text-wrapper mix-blend-lighter">
-                    <h2 class="text text-style-1 text-outline gray-75" data-lax="h-left">
-                        <?php echo FRASE[0];  ?>
-                    </h2>
-                    <h3 class="text text-style-8 text-italic gray-75" data-lax="h-right">
-                        <?php echo FRASE[1];  ?>
-                    </h3>
+                <!-- review content -->
+                <div class="flex-grow-1 d-md-flex justify-content-evenly gap-5">
+
+                    <!-- card -->
+                    <div class="card-review rounded-5 d-flex flex-column position-relative">
+                        <!-- Image wrapper -->
+                        <div class="card-header mb-1">
+                            <img src="https://randomuser.me/api/portraits/men/71.jpg" class="rounded-circle user-img" alt="">
+                        </div>
+
+                        <!-- Quotes left -->
+                        <div class=" text-orange mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
+                            </svg>
+                        </div>
+
+
+                        <!-- Card content -->
+                        <div class="card-body text-center">
+                            <h4 class="mb-0"><strong>Lorem ipsum</strong></h4>
+                            <h6 class="">Lorem ipsum</h6>
+                            <p class="text-justify text-xs bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quidem ab blanditiis cum? Fuga delectus aliquam voluptate</p>
+                        </div>
+
+                        <!-- Quotes Right -->
+                        <div class="text-orange text-end mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.456 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.248-5.621c-.537.278-1.24.375-1.93.311c-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.1.49 2.748 1.179m-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.456 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621c-.537.278-1.24.375-1.929.311C4.591 12.323 3.17 10.842 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.1.49 2.748 1.179" />
+                            </svg>
+                        </div>
+
+                    </div>
+
+                    <!-- card -->
+                    <div class="card-review rounded-5 d-flex flex-column position-relative active">
+                        <!-- Image wrapper -->
+                        <div class="card-header mb-1">
+                            <img src="https://randomuser.me/api/portraits/men/71.jpg" class="rounded-circle user-img" alt="">
+                        </div>
+
+                        <!-- Quotes left -->
+                        <div class=" text-orange mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
+                            </svg>
+                        </div>
+
+
+                        <!-- Card content -->
+                        <div class="card-body text-center">
+                            <h4 class="mb-0"><strong>Lorem ipsum</strong></h4>
+                            <h6 class="">Lorem ipsum</h6>
+                            <p class="text-justify text-xs bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quidem ab blanditiis cum? Fuga delectus aliquam voluptate</p>
+                        </div>
+
+                        <!-- Quotes Right -->
+                        <div class="text-orange text-end mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.456 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.248-5.621c-.537.278-1.24.375-1.93.311c-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.1.49 2.748 1.179m-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.456 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621c-.537.278-1.24.375-1.929.311C4.591 12.323 3.17 10.842 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.1.49 2.748 1.179" />
+                            </svg>
+                        </div>
+
+                    </div>
+
+                    <!-- card -->
+                    <div class="card-review rounded-5 d-flex flex-column position-relative">
+                        <!-- Image wrapper -->
+                        <div class="card-header mb-1">
+                            <img src="https://randomuser.me/api/portraits/men/71.jpg" class="rounded-circle user-img" alt="">
+                        </div>
+
+                        <!-- Quotes left -->
+                        <div class=" text-orange mb-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179m10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.87 3.87 0 0 1-2.748-1.179" />
+                            </svg>
+                        </div>
+
+
+                        <!-- Card content -->
+                        <div class="card-body text-center">
+                            <h4 class="mb-0"><strong>Lorem ipsum</strong></h4>
+                            <h6 class="">Lorem ipsum</h6>
+                            <p class="text-justify text-xs bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quidem ab blanditiis cum? Fuga delectus aliquam voluptate</p>
+                        </div>
+
+                        <!-- Quotes Right -->
+                        <div class="text-orange text-end mt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.456 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.248-5.621c-.537.278-1.24.375-1.93.311c-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.1.49 2.748 1.179m-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.456 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621c-.537.278-1.24.375-1.929.311C4.591 12.323 3.17 10.842 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.1.49 2.748 1.179" />
+                            </svg>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div>
+                    <!-- Arrow Right -->
+                    <a href="#" class="slide-navigation-item-next d-block text-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" width="100" height="100" viewBox="0 0 231.26 729.5">
+                            <path class="cls-1" d="M104.33,729.5c-.78,0-1.57-.13-2.34-.4-3.73-1.29-5.7-5.36-4.41-9.08l118.63-342.14L97.53,9.33c-1.21-3.75.86-7.78,4.61-8.98,3.76-1.22,7.78.85,8.98,4.61l120.14,373.1-120.19,346.65c-1.02,2.95-3.79,4.8-6.74,4.8Z" />
+                            <path class="cls-1" d="M7.14,729.5c-.78,0-1.57-.13-2.34-.4-3.73-1.29-5.7-5.36-4.41-9.08l118.63-342.14L.35,9.33C-.86,5.58,1.2,1.56,4.95.35c3.77-1.22,7.78.85,8.98,4.61l120.14,373.1L13.88,724.7c-1.02,2.95-3.79,4.8-6.74,4.8Z" />
+                        </svg>
+                    </a>
                 </div>
             </div>
         </section>
+
+        <!-- FAQ's -->
+        <section class="shock-section pt-2 pb-4 mb-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="mb-0 text-blue text-style-2" style="line-height: 70px;">FAQ's</h2>
+                    <h3 class="mb-0 text-blue text-style-5">Need Help?</h3>
+                    <p class="text-blue text-style-13">We've got you covered</p>
+                </div>
+                <div class="d-md-flex justify-content-evenly gap-5 mb-5">
+                    <div class="faq-card">
+                        <!-- Collapse -->
+                        <div class="collapsible">
+                            <div class="collapse-group">
+                                <a href="#collapse-1" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
+                                    <div class="collapse-button rounded-circle black">
+                                        <span class="arrow-button cross scheme-2 primary">
+                                            <span class="arrow">
+                                                <span class="item"></span>
+                                                <span class="item"></span>
+                                            </span>
+                                            <span class="line"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="title text-style-11 black">
+                                        <?php echo FAQS_1[0];  ?>
+                                    </h3>
+                                </a>
+                                <div id="collapse-1" class="collapse-content collapse">
+                                    <?php echo FAQS_1[1];  ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-card">
+                        <!-- Collapse -->
+                        <div class="collapsible">
+                            <div class="collapse-group">
+                                <a href="#collapse-2" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-2" data-bs-toggle="collapse">
+                                    <div class="collapse-button rounded-circle black">
+                                        <span class="arrow-button cross scheme-2 primary">
+                                            <span class="arrow">
+                                                <span class="item"></span>
+                                                <span class="item"></span>
+                                            </span>
+                                            <span class="line"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="title text-style-11 black">
+                                        <?php echo FAQS_2[0];  ?>
+                                    </h3>
+                                </a>
+                                <div id="collapse-2" class="collapse-content collapse">
+                                    <?php echo FAQS_2[1];  ?>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="faq-card">
+                        <!-- Collapse -->
+                        <div class="collapsible">
+                            <div class="collapse-group">
+                                <a href="#collapse-3" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-3" data-bs-toggle="collapse">
+                                    <div class="collapse-button rounded-circle black">
+                                        <span class="arrow-button cross scheme-2 primary">
+                                            <span class="arrow">
+                                                <span class="item"></span>
+                                                <span class="item"></span>
+                                            </span>
+                                            <span class="line"></span>
+                                        </span>
+                                    </div>
+                                    <h3 class="title text-style-11 black">
+                                        <?php echo FAQS_3[0];  ?>
+                                    </h3>
+                                </a>
+                                <div id="collapse-3" class="collapse-content collapse">
+                                    <?php echo FAQS_3[1];  ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="text-uppercase button-transparent button-orange text-center"><strong>Explore more</strong></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic slider -->
+        <?php include("include/dynamic-slider-home.php"); ?>
+
 
         <!-- Progress bar / Carousel -->
         <section class="shock-section pt-2 pb-4">

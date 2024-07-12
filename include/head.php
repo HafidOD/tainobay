@@ -12,13 +12,15 @@
     <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/menu-engine.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/menu-grid.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/dynamic-carousel.css" />
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/swiper.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/dynamic-slider.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/bricklayer.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/lightbox.min.css" />
     <link rel="stylesheet" href="assets/css/vendor/aos.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/dynamic-carousel.css" />
+    <link rel="stylesheet" href="assets/css/vendor/review-tripadvisor.css" />
+    <link rel="stylesheet" href="assets/css/vendor/faqs.css" />
 
     <!-- Main Style Sheet -->
     <link rel="stylesheet" href="assets/css/theme.css" />
