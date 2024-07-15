@@ -323,9 +323,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
         <section class="shock-section pt-2 pb-4 mb-5">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="mb-0 text-blue text-style-2" style="line-height: 70px;">FAQ's</h2>
-                    <h3 class="mb-0 text-blue text-style-5">Need Help?</h3>
-                    <p class="text-blue text-style-13">We've got you covered</p>
+                    <h2 class="mb-0 text-blue text-style-2" style="line-height: 70px;"><?= FAQS_TEXT[0] ?></h2>
+                    <h3 class="mb-0 text-blue text-style-5"><?= FAQS_TEXT[1] ?></h3>
+                    <p class="text-blue text-style-13"><?= FAQS_TEXT[2] ?></p>
                 </div>
 
                 <div class="d-md-flex justify-content-evenly gap-5 mb-5">
@@ -358,7 +358,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
 
 
                                 </a>
-                                <div id="collapse-1" class="collapse-content collapse">
+                                <div id="collapse-1" class="collapse-content collapse text-blue">
                                     <div class="d-block w-50 mx-auto">
                                         <span class="d-block w-100 border-2 border-bottom border-blue"></span>
                                     </div>
@@ -406,7 +406,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
 
 
                                 </a>
-                                <div id="collapse-2" class="collapse-content collapse">
+                                <div id="collapse-2" class="collapse-content collapse text-blue">
                                     <div class="d-block w-50 mx-auto">
                                         <span class="d-block w-100 border-2 border-bottom border-blue"></span>
                                     </div>
@@ -453,7 +453,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
 
 
                                 </a>
-                                <div id="collapse-3" class="collapse-content collapse">
+                                <div id="collapse-3" class="collapse-content collapse text-blue">
                                     <div class="d-block w-50 mx-auto">
                                         <span class="d-block w-100 border-2 border-bottom border-blue"></span>
                                     </div>
@@ -473,7 +473,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="#" class="text-uppercase button-transparent button-orange text-center"><strong>Explore more</strong></a>
+                    <a href="#" class="text-uppercase button-transparent button-orange text-center"><strong><?= FAQS_TEXT[3]; ?></strong></a>
                 </div>
             </div>
         </section>
@@ -564,7 +564,7 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                         <div class="basic-intro mb-35">
                             <h2 class="title black pb-2">
                                 <span class="text-1 text-style-7">
-                                    <?php echo FAQS; ?> </span>
+                                    <?php echo FAQS_TEXT[0]; ?> </span>
                             </h2>
                             <!-- Collapse -->
                             <div class="collapsible">

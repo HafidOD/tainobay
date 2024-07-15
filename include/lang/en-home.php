@@ -50,7 +50,12 @@ define('WELCOME_TEXT', array(
     and fun experiences created with you in mind.</p>'
 ));
 
-define('FAQS', 'FAQs');
+define('FAQS_TEXT', array(
+    "FAQ's",
+    "Need Help?",
+    "We've got you covered",
+    "READ MORE FAQ's"
+));
 
 define('FAQS_1', array(
     'What can I find in Taino Bay?',

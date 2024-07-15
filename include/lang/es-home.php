@@ -13,6 +13,13 @@ define('HOME_TEXT_WELCOME', array(
     'Con atracciones únicas, Lazy river, piscinas, zonas de descanso y mucho más, Taino Bay se convertirá en su próxima parada favorita para crear nuevos recuerdos en su próximo crucero.',
 ));
 
+define("SCROLLING_TEXT", array(
+    'Taino Bay is a must.',
+    'Must party, must do, must enjoy. ',
+    'Taino Bay is a must. Must party, must do, must enjoy. Taino Bay is a must. Must party,
+    must do, must enjoy. Taino Bay is a must.'
+));
+
 define('HOME_TEXTOS', array(
     'VER MÁS',
     '¿Qué hacer en Puerto Plata?'
@@ -37,7 +44,12 @@ define('WELCOME_TEXT', array(
     <p>Al llegar a Taino Bay encontrarás tiendas únicas, deliciosos restaurantes y experiencias divertidas creadas pensando en ti.</p>'
 ));
 
-define('FAQS', 'FAQs');
+define('FAQS_TEXT', array(
+    "FAQ's",
+    "¿Necesitas ayuda?",
+    "Tenemos lo que necesitas",
+    "LEER MÁS PREGUNTAS"
+));
 
 define('FAQS_1', array(
     '¿Qué puedo encontrar en Taino Bay? ',
