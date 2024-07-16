@@ -12,6 +12,13 @@
 .button-plus {
   margin-top: 5px;
 }
+a.button-plus svg.rotate-icon {
+  transition: all 0.5s;
+  transform: rotate(45deg);
+}
+a.button-plus.collapsed .rotate-icon {
+  transform: rotate(0deg);
+}
 
 /* sm */
 @media (min-width: 640px) {}

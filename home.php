@@ -37,7 +37,6 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
     <!-- Main -->
     <main id="main" class="shock-main">
 
-
         <!-- Banner -->
         <section id="home" class="shock-section has-overlay">
             <div class="banner">
@@ -368,9 +367,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                                 <div class="d-block w-50 mx-auto">
                                     <span class="d-block w-100 border-2 border-bottom border-blue"></span>
                                 </div>
-                                <a href="#collapse-1" class="d-block parent w-100 text-center text-orange button-plus" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
-                                        <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z" />
+                                <a href="#collapse-1" class="d-block parent w-100 text-center text-orange button-plus collapsed" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
+                                    <svg class="rotate-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m-7-7h14" />
                                     </svg>
                                 </a>
                             </div>
@@ -416,9 +415,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                                 <div class="d-block w-50 mx-auto">
                                     <span class="d-block w-100 border-2 border-bottom border-blue"></span>
                                 </div>
-                                <a href="#collapse-2" class="d-block parent w-100 text-center text-orange button-plus" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
-                                        <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z" />
+                                <a href="#collapse-2" class="d-block parent w-100 text-center text-orange button-plus collapsed" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
+                                    <svg class="rotate-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m-7-7h14" />
                                     </svg>
                                 </a>
                             </div>
@@ -463,9 +462,9 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                                 <div class="d-block w-50 mx-auto">
                                     <span class="d-block w-100 border-2 border-bottom border-blue"></span>
                                 </div>
-                                <a href="#collapse-3" class="d-block parent w-100 text-center text-orange button-plus" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
-                                        <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z" />
+                                <a href="#collapse-3" class="d-block parent w-100 text-center text-orange button-plus collapsed" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
+                                    <svg class="rotate-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v14m-7-7h14" />
                                     </svg>
                                 </a>
                             </div>
@@ -480,7 +479,6 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
 
         <!-- Dynamic slider -->
         <?php include("include/dynamic-slider-home.php"); ?>
-
 
         <!-- Progress bar / Carousel -->
         <section class="shock-section pt-2 pb-4">
@@ -557,75 +555,6 @@ include_once("include/lang/{$idioma}-points-of-interest.php");
                                     <img src="assets/images/media/video.jpg" class="image" alt="<?php echo SITIO; ?>" />
                                 </div>
                             </a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 align-v-center">
-
-                        <div class="basic-intro mb-35">
-                            <h2 class="title black pb-2">
-                                <span class="text-1 text-style-7">
-                                    <?php echo FAQS_TEXT[0]; ?> </span>
-                            </h2>
-                            <!-- Collapse -->
-                            <div class="collapsible">
-                                <div class="collapse-group">
-                                    <a href="#collapse-1" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-1" data-bs-toggle="collapse">
-                                        <div class="collapse-button rounded-circle black">
-                                            <span class="arrow-button cross scheme-2 primary">
-                                                <span class="arrow">
-                                                    <span class="item"></span>
-                                                    <span class="item"></span>
-                                                </span>
-                                                <span class="line"></span>
-                                            </span>
-                                        </div>
-                                        <h3 class="title text-style-11 black">
-                                            <?php echo FAQS_1[0];  ?>
-                                        </h3>
-                                    </a>
-                                    <div id="collapse-1" class="collapse-content collapse">
-                                        <?php echo FAQS_1[1];  ?>
-                                    </div>
-                                </div>
-                                <div class="collapse-group">
-                                    <a href="#collapse-2" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-2" data-bs-toggle="collapse">
-                                        <div class="collapse-button rounded-circle black">
-                                            <span class="arrow-button cross scheme-2 primary">
-                                                <span class="arrow">
-                                                    <span class="item"></span>
-                                                    <span class="item"></span>
-                                                </span>
-                                                <span class="line"></span>
-                                            </span>
-                                        </div>
-                                        <h3 class="title text-style-11 black">
-                                            <?php echo FAQS_2[0];  ?>
-                                        </h3>
-                                    </a>
-                                    <div id="collapse-2" class="collapse-content collapse">
-                                        <?php echo FAQS_2[1];  ?>
-                                    </div>
-                                </div>
-                                <div class="collapse-group">
-                                    <a href="#collapse-3" class="collapse-toggle parent" aria-expanded="false" aria-controls="collapse-3" data-bs-toggle="collapse">
-                                        <div class="collapse-button rounded-circle black">
-                                            <span class="arrow-button cross scheme-2 primary">
-                                                <span class="arrow">
-                                                    <span class="item"></span>
-                                                    <span class="item"></span>
-                                                </span>
-                                                <span class="line"></span>
-                                            </span>
-                                        </div>
-                                        <h3 class="title text-style-11 black">
-                                            <?php echo FAQS_3[0];  ?>
-                                        </h3>
-                                    </a>
-                                    <div id="collapse-3" class="collapse-content collapse">
-                                        <?php echo FAQS_3[1];  ?>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
