@@ -521,6 +521,7 @@ img,svg{vertical-align:middle}
 .bg-image.bg-fixed{background-attachment:fixed}
 .bg-image.size-50{background-size:50%;background-repeat:no-repeat;background-position-y:0}
 .has-overlay .overlay{content:'';position:absolute;z-index:0;top:0;left:0;width:100%;height:100%;background-color:var(--color);-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+.has-overlay .overlay-blue{content:'';position:absolute;z-index:0;top:0;left:0;width:100%;height:100%;background:linear-gradient(to bottom, rgba(255, 0, 0, 0), var(--blue-color));-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
 .shadow{box-shadow:0 20px 50px 0 #000!important}
 .small-shadow{box-shadow:0 5px 10px 0 rgb(0 0 0 / 15%) !important}
 .drop-shadow{filter:drop-shadow(5px 5px 5px var(--color))}
